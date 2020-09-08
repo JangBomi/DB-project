@@ -9,33 +9,19 @@ MySQL database
 
 # Requirements
 [ DB Schema ]
-<ol>
-- Should have at least 3 tables with each table having at least 3 columns
-- Should have at least 3 0 records inserted for initialization total records for all tables
-- Should include primary key in every table and also foreign key, not null constraints should exist in some tables
-  </ol>
-(
-4 ) Tables should be in 3 rd Normal Form (3NF)
-(5)
-A t least 1 index should be defined on the tables (The primary key(PK) columns have index
-automatically created, so do not create an index on a PK
-(
-6 1 view should be defined , and the view should be defined using at least two other table s
-[ DB Queries
-and Program
-(
-7 ) All queries (in 8 to 1 4 below) should have parameterized variables
-I
-n other words, the program asks for input value from the user and creates a query using the
-user input value For example, the user may give the singer name and this value will be plugged
-into the SELECT query. Hint: use PreparedStatement
-(
-8 ) Should have at least 1 in terface (menu and user input) and quer y to insert into 1 table
-(
-9 ) Should have at least 1 interface (menu and user input) and que ry to update on 1 or 2 tables
-(
-10 ) One of the update s s hould occur on 2 tables by using transaction s
-(
+
+1. Should have at least 3 tables with each table having at least 3 columns
+2. Should have at least 3 0 records inserted for initialization total records for all tables
+3. Should include primary key in every table and also foreign key, not null constraints should exist in some tables
+4. Tables should be in 3 rd Normal Form (3NF)
+5. At least 1 index should be defined on the tables (The primary key(PK) columns have index automatically created, so do not create an index on a PK)
+6. 1 view should be defined , and the view should be defined using at least two other tables
+[ DB Queries and Program ]
+7. All queries (in 8 to 1 4 below) should have parameterized variables
+8. Should have at least 1 in terface (menu and user input) and query to insert into 1 table
+9. Should have at least 1 interface (menu and user input) and query to update on 1 or 2 tables
+10. One of the updates should occur on 2 tables by using transactions
+
 
 
 # Schema Diagram
