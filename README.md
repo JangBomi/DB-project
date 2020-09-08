@@ -1,7 +1,6 @@
 # DB-project
-Bakery cafe menu management system(2020-1 Database course)
-Create a Java program using JDBC to insert, update, delete and retrieve information to/from a
-MySQL database
+### Bakery cafe menu management system(2020-1 Database course)
+Create a Java program using JDBC to insert, update, delete and retrieve information to/from a MySQL database
 - mariaDB
 - JDBC
 - Java
@@ -16,12 +15,17 @@ MySQL database
 4. Tables should be in 3 rd Normal Form (3NF)
 5. At least 1 index should be defined on the tables (The primary key(PK) columns have index automatically created, so do not create an index on a PK)
 6. 1 view should be defined , and the view should be defined using at least two other tables
-[ DB Queries and Program ]
+<br> [ DB Queries and Program ]
 7. All queries (in 8 to 1 4 below) should have parameterized variables
 8. Should have at least 1 in terface (menu and user input) and query to insert into 1 table
 9. Should have at least 1 interface (menu and user input) and query to update on 1 or 2 tables
 10. One of the updates should occur on 2 tables by using transactions
-
+11. Should have at least 1 interface (menu and user input) and queries to delete from 1 table
+12. Should have at least 1 interface (menu and user input) and queries to select from database
+13. Should have at least 1 interface (menu and user input) and queries to select using nestedqueries and join.
+14. Should have at least 1 interface (menu and user input) and queries to select from view
+15. Should have interface (menu) to print out contents of all tables
+16. Should have interface to finish program gracefully. Otherwise menu should repeatedly appear automatically.
 
 
 # Schema Diagram
@@ -57,6 +61,6 @@ MySQL database
 
 
 # Role
-- 모든 기능 구현
+- 모든 기능 구현(개인 프로젝트)
 
 
