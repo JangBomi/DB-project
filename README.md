@@ -1,9 +1,42 @@
 # DB-project
 Bakery cafe menu management system(2020-1 Database course)
+Create a Java program using JDBC to insert, update, delete and retrieve information to/from a
+MySQL database
 - mariaDB
 - JDBC
 - Java
-text기반 ui로 구현
+<br> text기반 ui로 구현
+
+# Requirements
+[ DB Schema ]
+<ol>
+- Should have at least 3 tables with each table having at least 3 columns
+- Should have at least 3 0 records inserted for initialization total records for all tables
+- Should include primary key in every table and also foreign key, not null constraints should exist in some tables
+  </ol>
+(
+4 ) Tables should be in 3 rd Normal Form (3NF)
+(5)
+A t least 1 index should be defined on the tables (The primary key(PK) columns have index
+automatically created, so do not create an index on a PK
+(
+6 1 view should be defined , and the view should be defined using at least two other table s
+[ DB Queries
+and Program
+(
+7 ) All queries (in 8 to 1 4 below) should have parameterized variables
+I
+n other words, the program asks for input value from the user and creates a query using the
+user input value For example, the user may give the singer name and this value will be plugged
+into the SELECT query. Hint: use PreparedStatement
+(
+8 ) Should have at least 1 in terface (menu and user input) and quer y to insert into 1 table
+(
+9 ) Should have at least 1 interface (menu and user input) and que ry to update on 1 or 2 tables
+(
+10 ) One of the update s s hould occur on 2 tables by using transaction s
+(
+
 
 # Schema Diagram
 
@@ -14,10 +47,30 @@ text기반 ui로 구현
 
 # Function of Code
 - '손님 접속'과 '직원 접속' 으로 선택에 따라 서로 다른 기능을 보여줌
+- view 구조를 사용해 세트 메뉴(-500) 구성
+- jdbc preparedStatement 사용
+- transaction 사용해 결제 기능 선택시 결제 내역 및 고객 포인트 자동 update
+- 고객 포인트 5% 적립 기능
+#### Customer
+- 모든 제품 보기
+- 특정 타입 제품 보기
+- seasonal set menu 보기
+#### Employee
+- 메뉴 보기
+- 메뉴 추가
+- 메뉴 수정
+- 메뉴 삭제
+- 직원 추가 및 삭제
+- 직원 정보 수정
+- 결제 내역 관리
+- 결제(결제시 결제 내역 및 손님 포인트 자동 update)
+
 
 ![Function of code image](https://user-images.githubusercontent.com/55357130/92497939-f45a4800-f234-11ea-907d-2702fde7e22a.PNG)
 
-# Role
 
+
+# Role
+- 모든 기능 구현
 
 
